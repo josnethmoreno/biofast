@@ -17,5 +17,7 @@ const links = [
     { text: 'Medium', href: 'https://example.com', color: '#000000', icon: icon.RiMediumLine},
 ]
 
+const brand = 'Natalie Hawlitschek © 2022'
 
-export { links, profile } 
+
+export { links, profile, brand } 

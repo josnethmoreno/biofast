@@ -1,0 +1,10 @@
+.Footer {
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    padding: 1.5rem 0;
+    margin: 0 auto;
+    margin-bottom: auto;
+    font-weight: 300;
+}

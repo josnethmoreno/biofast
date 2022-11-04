@@ -1,5 +1,6 @@
 import Header from './components/Header/Header'
 import Link from './components/Link/Link'
+import Footer from './components/Footer/Footer'
 
 import { links } from './data'
 
@@ -20,6 +21,7 @@ function App() {
 					></Link>
 				))}
 			</div>
+			<Footer></Footer>
 		</div>
 	)
 }
