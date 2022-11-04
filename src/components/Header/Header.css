@@ -1,7 +1,7 @@
 .Header {
 	position: relative;
 	gap: 0.3rem;
-	padding-top: 5rem;
+	padding-top: 5.5rem;
 }
 
 .Header-data {
@@ -9,8 +9,6 @@
 	flex-direction: column;
 	align-self: center;
 	align-items: center;
-	padding-top: .4rem;
-	gap: .3rem;
 }
 
 .Header-photo {
@@ -20,7 +18,8 @@
 }
 
 .Header-name {
-	font-size: 1.6rem;
+	margin-top: .6rem;
+	font-size: 1.8rem;
 	font-weight: 500;
 }
 
@@ -32,5 +31,19 @@
 .Header-bg {
 	position: absolute;
 	top: 0;
+	height: 150px;
+	width: 100%;
+	background: url(../../assets/background.png);
+	background-size: cover;
+	background-position: center;
 	z-index: -1;
+}
+
+@media (max-width: 768px) {
+	.Header {
+		padding-top: 2.5rem;
+	}
+	.Header-bg {
+		height: 100px;
+	}
 }

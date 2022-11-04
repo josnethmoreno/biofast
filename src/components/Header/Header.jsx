@@ -14,7 +14,6 @@ function Header() {
 				<h2 className='Header-role'>{profile.role}</h2>
 			</div>
 			<div className='Header-bg'>
-				<img src={background} alt="Background header" />
 			</div>
 		</header>
 	)
