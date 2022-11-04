@@ -2,13 +2,14 @@
 	position: relative;
 	font-size: 14px;
 	padding: 0.8rem 8rem;
-    color: var(--secondary);
-	background-color: var(--link);
+    color: var(--text-color);
+	background-color: var(--link-color);
 	border-radius: 14px;
 	font-weight: 300;
-	cursor: pointer;
-	transition: 0.3s;
+	text-align: center;
     text-decoration: none;
+	cursor: pointer;
+	transition: 0.2s ease;
 }
 
 .Link:hover {
@@ -23,7 +24,7 @@
 	top: 50%;
 	left: 2px;
 	transform: translateY(-50%);
-	height: 95%;
+	height: 90%;
 	aspect-ratio: 1 / 1;
 	border-radius: 12px;
     color: #fff;

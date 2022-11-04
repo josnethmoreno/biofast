@@ -1,14 +1,8 @@
-.App {
-	margin-top: 4rem;
-}
-
-.App > .container {
-	text-align: center;
-}
-
 .App-links {
-	padding-top: 2.5rem;
 	display: flex;
+	padding-top: 2.5rem;
+	margin: 0 auto;
+	max-width: 400px;
 	flex-direction: column;
 	gap: 0.7rem;
 }

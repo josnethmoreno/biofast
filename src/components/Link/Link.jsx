@@ -7,7 +7,7 @@ function Link({ text, href, bgColor, icon }) {
 		<a className='Link' href={href}>
 			<span
 				className='Link-icon'
-				style={{ backgroundColor: `var(--${bgColor})` }}
+				style={{ backgroundColor: bgColor}}
 			>
 				<Icon icon={icon}></Icon>
 			</span>

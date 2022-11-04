@@ -1,32 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 :root {
-	--white: hsla(0, 0%, 100%, 1);
-	--smoky-black: hsla(0, 0%, 7%, 1);
-	--medium-slate-blue: hsla(243, 72%, 67%, 1);
-	--medium-slate-blue-10: hsla(243, 72%, 67%, 0.1);
-	--vivid-sky-blue: hsla(196, 92%, 64%, 1);
-	--tart-orange: hsla(0, 100%, 65%, 1);
-	--jet: hsla(0, 0%, 20%, 1);
-	--orange-crayola: hsla(20, 92%, 59%, 1);
-	--star-command-blue: hsla(201, 100%, 35%, 1);
-	--smoky-black: hsla(0, 0%, 7%, 1);
-	--black: hsla(0, 0%, 0%, 1);
-	--bluetiful: hsla(219, 100%, 55%, 1);
+	--white: #ffffff;
+	--smoky-black: #121212;
+	--medium-slate-blue: #746ee7;
+	--medium-slate-blue-10: #f0bdd11a;
 
 	/* Theme */
-	--primary: var(--white);
-	--secondary: var(--smoky-black);
-	--accent: var(--medium-slate-blue);
-	--link: var(--medium-slate-blue-10);
-	--twitter: var(--vivid-sky-blue);
-	--youtube: var(--tart-orange);
-	--github: var(--jet);
-	--instagram: var(--orange-crayola);
-	--linkedin: var(--star-command-blue);
-	--codepen: var(--smoky-black);
-	--medium: var(--black);
-	--behance: var(--bluetiful)
+	--bg-color: #ffffff;
+	--text-color: #121212;
+	--accent-color: #a3dde1;
+	--link-color: #f0bdd11a;
 }
 
 *,
@@ -77,9 +61,4 @@ h6 {
 #root,
 #__next {
 	isolation: isolate;
-}
-
-.container {
-	max-width: 400px;
-	margin: 0 auto;
 }
