@@ -1,6 +1,8 @@
 import Header from './components/Header/Header'
 import Link from './components/Link/Link'
 
+import links from './data'
+
 import './App.css'
 
 function App() {
@@ -9,11 +11,9 @@ function App() {
 			<div className='container'>
 				<Header></Header>
 				<div className='App-links'>
-					<Link text='Portfolio' bgColor='accent'></Link>
-					<Link text='Twitter' bgColor='twitter'></Link>
-					<Link text='YouTube' bgColor='youtube'></Link>
-					<Link text='Github' bgColor='github'></Link>
-					<Link text='Instagram' bgColor='instagram'></Link>
+					{links.map(link => (
+						<Link text={link.text} href={link.href} bgColor={link.color} icon={link.icon}></Link>
+					))}
 				</div>
 			</div>
 		</div>

@@ -9,6 +9,10 @@
 	--tart-orange: hsla(0, 100%, 65%, 1);
 	--jet: hsla(0, 0%, 20%, 1);
 	--orange-crayola: hsla(20, 92%, 59%, 1);
+	--star-command-blue: hsla(201, 100%, 35%, 1);
+	--smoky-black: hsla(0, 0%, 7%, 1);
+	--black: hsla(0, 0%, 0%, 1);
+	--bluetiful: hsla(219, 100%, 55%, 1);
 
 	/* Theme */
 	--primary: var(--white);
@@ -19,6 +23,10 @@
 	--youtube: var(--tart-orange);
 	--github: var(--jet);
 	--instagram: var(--orange-crayola);
+	--linkedin: var(--star-command-blue);
+	--codepen: var(--smoky-black);
+	--medium: var(--black);
+	--behance: var(--bluetiful)
 }
 
 *,
@@ -72,6 +80,6 @@ h6 {
 }
 
 .container {
-	max-width: 330px;
+	max-width: 400px;
 	margin: 0 auto;
 }

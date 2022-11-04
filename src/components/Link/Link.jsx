@@ -1,12 +1,16 @@
 import './Link.css'
 
-function Link({ text, href, bgColor }) {
+import Icon from '../Icon/Icon'
+
+function Link({ text, href, bgColor, icon }) {
 	return (
 		<a className='Link' href={href}>
 			<span
 				className='Link-icon'
 				style={{ backgroundColor: `var(--${bgColor})` }}
-			></span>
+			>
+				<Icon icon={icon}></Icon>
+			</span>
 			{text}
 		</a>
 	)

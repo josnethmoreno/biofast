@@ -1,14 +1,24 @@
 .Link {
 	position: relative;
 	font-size: 14px;
-	padding: 0.6rem 8rem;
+	padding: 0.8rem 8rem;
+    color: var(--secondary);
 	background-color: var(--link);
 	border-radius: 14px;
 	font-weight: 300;
 	cursor: pointer;
+	transition: 0.3s;
+    text-decoration: none;
+}
+
+.Link:hover {
+	transform: scale(1.03);
 }
 
 .Link-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 	position: absolute;
 	top: 50%;
 	left: 2px;
@@ -16,4 +26,9 @@
 	height: 95%;
 	aspect-ratio: 1 / 1;
 	border-radius: 12px;
+    color: #fff;
+}
+
+.Link-icon svg {
+    font-size: 1.6rem;
 }
