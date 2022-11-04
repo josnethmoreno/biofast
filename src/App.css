@@ -6,6 +6,7 @@
 .App-links {
 	display: flex;
 	padding-top: 2.5rem;
+	padding-bottom: 5rem;
 	margin: 0 auto;
 	max-width: 400px;
 	flex-direction: column;
