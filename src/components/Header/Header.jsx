@@ -1,9 +1,9 @@
+import { motion } from 'framer-motion'
+
 import './Header.css'
 
 import { profile } from '../../data'
 import photo from '../../assets/photo.png'
-import background from '../../assets/background.png'
-
 
 function Header() {
 	return (
@@ -13,8 +13,7 @@ function Header() {
 				<h1 className='Header-name'>{profile.name}</h1>
 				<h2 className='Header-role'>{profile.role}</h2>
 			</div>
-			<div className='Header-bg'>
-			</div>
+			<div className='Header-bg'></div>
 		</header>
 	)
 }
