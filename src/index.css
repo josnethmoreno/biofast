@@ -1,15 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 :root {
-	--white: #ffffff;
-	--smoky-black: #121212;
-	--medium-slate-blue: #f0bdd1;
-	--medium-slate-blue-10: #f0bdd11a;
-
 	/* Theme */
 	--bg-color: #ffffff;
 	--text-color: #121212;
-	--accent-color: #a3dde1;
+	--accent-color: #f0bdd1;
 	--link-color: #f0bdd11a;
 }
 
