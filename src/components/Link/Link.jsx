@@ -1,7 +1,5 @@
 import './Link.css'
 
-import { motion } from 'framer-motion'
-
 import Icon from '../Icon/Icon'
 
 function Link({ text, href, bgColor, icon }) {

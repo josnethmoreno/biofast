@@ -2,8 +2,6 @@ import Header from './components/Header/Header'
 import Link from './components/Link/Link'
 import Footer from './components/Footer/Footer'
 
-import { motion } from 'framer-motion'
-
 import { links } from './data'
 
 import './App.css'
