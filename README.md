@@ -56,14 +56,13 @@ $ npm dev
 
 ## Build & deploy
 
-1. Generate a full static production build
-   ```sh
-   npm run build
-   ```
-2. Preview the site as it will appear once deployed
-   ```sh
-   npm run preview
-   ```
+```bash
+# Generate a full static production build
+$ npm run build
+
+# Preview the site as it will appear once deployed
+$ npm run preview
+```
 
 ## License
 
