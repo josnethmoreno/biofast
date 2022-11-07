@@ -52,7 +52,7 @@ $ npm dev
 - Open the file src/data.js and make changes.
 - Replace image files src/assets/background.png and src/assets/photo.png
 
-### Contact
+## Contact
 
 - Website [josnethmoreno.vercel.app](https://josnethmoreno.vercel.app)
 - GitHub [@josnethmoreno](https://github.com/josnethmoreno)
