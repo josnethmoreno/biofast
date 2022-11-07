@@ -10,6 +10,7 @@
   - [Built With](#built-with)
 - [Features](#features)
 - [Setup](#setup)
+- [How to use](#how-to-use)
 - [Contact](#contact)
 
 <!-- OVERVIEW -->
@@ -47,8 +48,9 @@ $ npm dev
 
 ## How to use
 
-- Open the file index.html and replace <title>Singleton</title> with <title>Your Name</title>
+- Open the file index.html and replace <title>Biofast</title> with <title>Your Name</title>
 - Open the file src/data.js and make changes.
+- Replace image files src/assets/background.png and src/assets/photo.png
 
 ### Contact
 
