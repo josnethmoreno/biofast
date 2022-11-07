@@ -11,6 +11,8 @@
 - [Features](#features)
 - [Setup](#setup)
 - [How to use](#how-to-use)
+- [Build & deploy](#build--deploy)
+- [License](#license)
 - [Contact](#contact)
 
 <!-- OVERVIEW -->
@@ -51,6 +53,21 @@ $ npm dev
 - Open the file index.html and replace <title>Biofast</title> with <title>Your Name</title>
 - Open the file src/data.js and make changes.
 - Replace image files src/assets/background.png and src/assets/photo.png
+
+## Build & deploy
+
+1. Generate a full static production build
+   ```sh
+   npm run build
+   ```
+2. Preview the site as it will appear once deployed
+   ```sh
+   npm run preview
+   ```
+
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
